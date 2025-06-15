@@ -1,0 +1,8 @@
+.HomePage {
+  color: var(--queen-blue);
+  margin: 0 40px;
+}
+.HomePage h1{
+    font-size: 18px;
+}
+

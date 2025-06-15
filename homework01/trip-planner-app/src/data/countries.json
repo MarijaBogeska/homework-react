@@ -1,0 +1,92 @@
+[
+  {
+    "name": { "common": "France" },
+    "capital": ["Paris"],
+    "region": "Europe",
+    "area": 551695,
+    "flag": "flag",
+    "population": 67390000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Spain" },
+    "capital": ["Madrid"],
+    "region": "Europe",
+    "area": 505990,
+    "flag": "flag",
+    "population": 47350000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "United States" },
+    "capital": ["Washington, D.C."],
+    "region": "Americas",
+    "area": 9833517,
+    "flag": "flag",
+    "population": 331000000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Italy" },
+    "capital": ["Rome"],
+    "region": "Europe",
+    "area": 301340,
+    "flag": "flag",
+    "population": 59550000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "China" },
+    "capital": ["Beijing"],
+    "region": "Asia",
+    "area": 9596961,
+    "flag": "flag",
+    "population": 1402112000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Turkey" },
+    "capital": ["Ankara"],
+    "region": "Asia",
+    "area": 783562,
+    "flag": "flag",
+    "population": 84339067,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Mexico" },
+    "capital": ["Mexico City"],
+    "region": "Americas",
+    "area": 1964375,
+    "flag": "flag",
+    "population": 128900000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Thailand" },
+    "capital": ["Bangkok"],
+    "region": "Asia",
+    "area": 513120,
+    "flag": "flag",
+    "population": 69950000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Germany" },
+    "capital": ["Berlin"],
+    "region": "Europe",
+    "area": 357022,
+    "flag": "flag",
+    "population": 83166711,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "United Kingdom" },
+    "capital": ["London"],
+    "region": "Europe",
+    "area": 243610,
+    "flag": "flag",
+    "population": 67886011,
+    "landlocked": false
+  }
+]
