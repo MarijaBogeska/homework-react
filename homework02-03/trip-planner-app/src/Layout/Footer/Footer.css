@@ -1,0 +1,7 @@
+.Footer {
+  color: var(--desert-sand);
+  background-color: var(--queen-blue);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
