@@ -1,0 +1,16 @@
+.Navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 40px;
+}
+
+.Navbar ul li a {
+  text-decoration: none;
+  color: var(--english-red);
+  font-weight: 700;
+}
+
+.Navbar ul li a:hover {
+  color: var(--queen-blue);
+}

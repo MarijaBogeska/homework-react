@@ -1,0 +1,25 @@
+.Card {
+  width: 200px;
+  height: auto;
+  background-color: var(--english-red);
+  color: var(--desert-sand);
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.Card .section {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  height: 80px;
+}
+.Card p{
+  padding-left: 10px;
+}
+

@@ -1,0 +1,12 @@
+.TripPlanner h1{
+    color: var(--queen-blue);
+    text-align: center;
+}
+
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 10px;
+}

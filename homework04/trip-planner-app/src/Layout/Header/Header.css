@@ -1,0 +1,9 @@
+.Header {
+    border: 1px solid var(--queen-blue);
+    margin: 10px;
+    border-radius: 10px;
+}
+.Header h1 {
+  text-align: center;
+  color: var(--queen-blue);
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "name": { "common": "Switzerland" },
+    "capital": ["Bern"],
+    "region": "Europe",
+    "area": 41284,
+    "flag": "flag",
+    "population": 8655000,
+    "landlocked": true
+  },
+  {
+    "name": { "common": "Austria" },
+    "capital": ["Vienna"],
+    "region": "Europe",
+    "area": 83879,
+    "flag": "flag",
+    "population": 9006398,
+    "landlocked": true
+  },
+  {
+    "name": { "common": "Nepal" },
+    "capital": ["Kathmandu"],
+    "region": "Asia",
+    "area": 147181,
+    "flag": "flag",
+    "population": 30000000,
+    "landlocked": true
+  },
+  {
+    "name": { "common": "Bolivia" },
+    "capital": ["Sucre", "La Paz"],
+    "region": "Americas",
+    "area": 1098581,
+    "flag": "flag",
+    "population": 11673029,
+    "landlocked": true
+  },
+  {
+    "name": { "common": "Paraguay" },
+    "capital": ["Asunción"],
+    "region": "Americas",
+    "area": 406752,
+    "flag": "flag",
+    "population": 7132530,
+    "landlocked": true
+  },
+  {
+    "name": { "common": "Japan" },
+    "capital": ["Tokyo"],
+    "region": "Asia",
+    "area": 377975,
+    "flag": "flag",
+    "population": 125800000,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Brazil" },
+    "capital": ["Brasília"],
+    "region": "Americas",
+    "area": 8515767,
+    "flag": "flag",
+    "population": 212559417,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "South Africa" },
+    "capital": ["Pretoria", "Cape Town", "Bloemfontein"],
+    "region": "Africa",
+    "area": 1221037,
+    "flag": "flag",
+    "population": 59308690,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Australia" },
+    "capital": ["Canberra"],
+    "region": "Oceania",
+    "area": 7692024,
+    "flag": "flag",
+    "population": 25687041,
+    "landlocked": false
+  },
+  {
+    "name": { "common": "Indonesia" },
+    "capital": ["Jakarta"],
+    "region": "Asia",
+    "area": 1904569,
+    "flag": "flag",
+    "population": 273523615,
+    "landlocked": false
+  }
+]

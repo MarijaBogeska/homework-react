@@ -23,7 +23,7 @@ function App() {
   const onSearch = (value: string) => {
     setFilteredData(
       countiriesData.filter((country) =>
-        country.name.common.toLowerCase().includes(value)
+        country.name.common.toLowerCase().includes(value.toLowerCase())
       )
     );
   };
