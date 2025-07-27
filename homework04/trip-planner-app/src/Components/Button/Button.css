@@ -1,0 +1,11 @@
+.Button button{
+    background-color: var(--desert-sand);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 30px;
+    color: var(--english-red);
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}

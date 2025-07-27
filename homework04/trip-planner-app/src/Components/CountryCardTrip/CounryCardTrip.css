@@ -1,6 +1,9 @@
-.Card {
-  width: 200px;
-  height: auto;
+.CardTrip {
+  width: 450px;
+ height: 200px;
+  margin: 20px;
+  justify-items: center;
+  align-content: center;
   background-color: var(--english-red);
   color: var(--desert-sand);
   border-radius: 10px;
@@ -9,13 +12,19 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Card .section {
+.CardTrip .section {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
-  height: 80px;
+  gap: 40px;
 }
-.Card p{
-  padding-left: 10px;
+
+.CardTrip .sectionTwo {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  gap: 40px;
 }
+
+
+
 

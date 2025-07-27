@@ -14,6 +14,8 @@ import {
 import { loadPlannerFromLocalStorage } from "./services/data.service";
 import { Spinner } from "./Components/Spinner/Spinner";
 import TripPlannerPage from "./Pages/TripPlanPage/TripPlanPage";
+import TripInfoPage from "./Pages/TripInfoPage/TripInfoPage";
+import TripsPage from "./Pages/TripsPage/TripsPage";
 
 function App() {
   const navLinks: NavLink[] = [
@@ -23,7 +25,8 @@ function App() {
     { text: "Europe", path: "/europe" },
     { text: "Americas", path: "/americas" },
     { text: "Oceania", path: "/oceania" },
-    {text: "Trip Planner", path: "/planner"}
+    { text: "Planner", path: "/planner" },
+    { text: "Trips", path: "/trips" },
   ];
 
   const isLoading = useAppSelector((state) => state.countries.isLoading);
@@ -60,7 +63,9 @@ function App() {
               element={<OtherPages region="Americas" />}
             />
             <Route path="/oceania" element={<OtherPages region="Oceania" />} />
-            <Route path="/planner" element={<TripPlannerPage/>}/>
+            <Route path="/planner" element={<TripPlannerPage />} />
+            <Route path="/tripInfo" element={<TripInfoPage />} />
+            <Route path="/trips" element={<TripsPage />} />
           </Routes>
         </main>
         <Footer name="Marija Bogeska" />

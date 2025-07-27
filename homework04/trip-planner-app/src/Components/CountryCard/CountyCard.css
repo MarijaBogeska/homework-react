@@ -19,6 +19,10 @@
   margin: 10px;
   height: 80px;
 }
+.Card .section img{
+  width: 30px;
+  height: 20px;
+}
 .Card p{
   padding-left: 10px;
 }

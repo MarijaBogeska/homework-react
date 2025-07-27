@@ -19,6 +19,7 @@ function CountryCard({ country }: CountyCardProps) {
       }}
     >
       <div className="section">
+        <img src={country.flags.png} alt="" />
         <h3>{country.name.common}</h3>
         <SaveButton
           isSaved={country.isSaved}

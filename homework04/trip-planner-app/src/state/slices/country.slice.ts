@@ -46,6 +46,11 @@ const countriesSlice = createSlice({
       );
       if (foundCountry) {
         foundCountry.isSaved = !foundCountry.isSaved;
+        if(foundCountry.isSaved){
+          foundCountry.days = 1
+        }else{
+          foundCountry.days = 0
+        }
       }
     },
     addDayInCountry(
@@ -54,7 +59,7 @@ const countriesSlice = createSlice({
     ) {
       for (const country of state.value) {
         if (country.name.common === selectedCountry.name.common) {
-          country.days++;
+          country.days === 30 ? "" : country.days++;
           break;
         }
       }
@@ -65,7 +70,7 @@ const countriesSlice = createSlice({
     ) {
       for (const country of state.value) {
         if (country.name.common === selectedCountry.name.common) {
-          country.days--;
+          country.days === 1 ? "" : country.days--;
           break;
         }
       }

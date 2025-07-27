@@ -1,0 +1,31 @@
+.TripInfoPage {
+  display: block;
+  justify-items: center;
+  color:var(--english-red);
+}
+.TripInfoPage input {
+  background-color: transparent;
+  border: 2px solid var(--english-red);
+  border-radius: 5px;
+   color:black;
+}
+.TripInfoPage form {
+  display: grid;
+  width: 300px;
+}
+
+.TripInfoPage form textarea {
+  resize: none;
+  height: 100px;
+  background-color: transparent;
+  border: 2px solid var(--english-red);
+  border-radius: 5px;
+}
+
+.TripInfoPage form Button{
+    border: 2px solid var(--english-red);
+    width: auto;
+    margin: 10px;
+    display: block;
+    justify-self: center;
+}

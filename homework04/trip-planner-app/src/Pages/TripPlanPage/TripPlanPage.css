@@ -10,3 +10,12 @@
   justify-content: center;
   margin: 20px 10px;
 }
+
+.TripPlanner Button{
+  display: block;
+  margin: 0px auto;
+  border: 2px solid var(--queen-blue);
+  width: auto;
+  font-size: larger;
+}
+
